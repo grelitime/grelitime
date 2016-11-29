@@ -9,7 +9,7 @@ span.greli {
 
 strong.greli {
 	font-size: 200px;
-	color: #fff;
+	color: #000;
 	
 }
 
@@ -66,7 +66,11 @@ ul li a i:hover {
 }
 
 .greli-emotion{
-	height: 400px;
+	height: 425px;
+}
+
+.orange{
+	color: orange;
 }
 .greli-emotion::after {
   content: "";
@@ -79,7 +83,7 @@ ul li a i:hover {
   position: absolute;
   z-index: -1;   
   background-size:cover;
-  height: 400px;
+  height: 425px;	
 }
 
 .greli-experience{
@@ -103,22 +107,56 @@ ul li a i:hover {
     background: white;	
 }
 
+/* Ipad */ 
+@media (max-width:1025px and max-height: 769px) {
+	.greli-emotion{
+		height: 600px;
+	}	
+
+	.greli-emotion::after {
+	  	height: 600px;	
+	}
+}
+
+/* Ipad */ 
+@media (max-width:769px) {
+	.greli-emotion{
+		height: 550px;
+	}	
+
+	.greli-emotion::after {
+	  height: 550px;	
+	}
+}
+
+
+
 /* Small Devices */ 
-@media (max-width:480px) {
+@media (max-width:700px) {
 	span.greli {
-		font-size: 70px;
+		font-size: 50px;
 	}
 
-
 	strong.greli {
-		font-size: 110px;
+		font-size: 80px;
 	}	
 
 	nav ul{
 		float: left;
 	}
 
-	
+	.greli-emotion{
+		text-align: left;
+	}
+
+	.greli-emotion::after {
+	  height: 350px;	
+	}	
+
+	.greli-emotion{
+		height: 350px;
+		text-align: left;
+	}	
 
 	.greli-knowledge{
 		font-size: 50px;
