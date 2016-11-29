@@ -1,5 +1,5 @@
 *{
-	font-family: 'Indie Flower', cursive;
+	font-family: 'Reem Kufi', sans-serif;
 }
 
 span.greli {
@@ -89,6 +89,13 @@ ul li a i:hover {
 	z-index: -1; 
 	font-size: 50px;
 	color: #fff;	  
+}
+
+.greli-experience{
+	float: left;
+	background: #fff;
+	width: 80%;
+	margin: 0 auto;
 }
 
 /* Small Devices */ 
