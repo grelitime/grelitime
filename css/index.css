@@ -1,14 +1,14 @@
 *{
-	font-family: 'Reem Kufi', sans-serif;
+	font-family: 'Muli', sans-serif;
 }
 
 span.greli {
-	font-size: 100px;
+	font-size: 50px;
 	font-style: normal;
 }
 
 strong.greli {
-	font-size: 200px;
+	font-size: 150px;
 	color: #000;
 	
 }
@@ -24,6 +24,18 @@ ul {
 ul li {
     list-style-type: none;
     float: left;
+}
+
+.greli-advices div{
+	margin: 3px;
+}
+
+.greli-experience i
+{
+ background-color: orange;
+ border-radius: 50%;
+ border: 1x solid grey;
+ padding:10px;
 }
 
 nav{
@@ -65,12 +77,15 @@ ul li a i:hover {
     opacity: .7;
 }
 
-.greli-emotion{
-	height: 425px;
+.greli-emotion, .greli-emotion::after{
+	height: 350px;
 }
 
 .orange{
 	color: orange;
+}
+.green{
+	color: green;
 }
 .greli-emotion::after {
   content: "";
@@ -83,7 +98,6 @@ ul li a i:hover {
   position: absolute;
   z-index: -1;   
   background-size:cover;
-  height: 425px;	
 }
 
 .greli-experience{
@@ -104,29 +118,41 @@ ul li a i:hover {
 	width: 100%;
 	font-size: 50px;
 	float: left;	  
-    background: white;	
+}
+
+.greli-advices{
+	text-align: left;
+	width: 50%;
+	margin:0 auto;
 }
 
 /* Ipad */ 
 @media (max-width:1024px) and (max-height: 768px) {
-	.greli-emotion{
-		height: 550px;
+	.greli-emotion, .greli-emotion::after{
+		height: 350px;
 	}	
-
-	.greli-emotion::after {
-	  	height: 550px;	
-	}
+	.greli-advices{
+		text-align: left;
+		width: 90%;
+		margin:0 auto;
+	}	
 }
 
 /* Ipad */ 
 @media (max-width:769px) {
 	.greli-emotion{
-		height: 550px;
+		height: 400px;
 	}	
 
 	.greli-emotion::after {
-	  height: 550px;	
+	  height: 400px;	
 	}
+
+	.greli-advices{
+		text-align: left;
+		width: 95%;
+		margin:0 auto;
+	}		
 }
 
 
@@ -134,11 +160,11 @@ ul li a i:hover {
 /* Small Devices */ 
 @media (max-width:700px) {
 	span.greli {
-		font-size: 50px;
+		font-size: 45px;
 	}
 
 	strong.greli {
-		font-size: 80px;
+		font-size: 60px;
 	}	
 
 	nav ul{
@@ -150,17 +176,24 @@ ul li a i:hover {
 	}
 
 	.greli-emotion::after {
-	  height: 350px;	
+	  height: 300px;	
 	}	
 
 	.greli-emotion{
-		height: 350px;
+		height: 300px;
 		text-align: left;
 	}	
 
 	.greli-knowledge{
 		font-size: 50px;
 	}	
+
+	.greli-advices{
+		text-align: left;
+		width: 95%;
+		margin:0 auto;
+		font-size: 25px;
+	}			
 }
 
 
