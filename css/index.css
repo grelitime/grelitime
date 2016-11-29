@@ -1,6 +1,7 @@
 *{
 	font-family: 'Indie Flower', cursive;
 }
+
 span.greli {
 	font-size: 100px;
 	font-style: normal;
@@ -63,12 +64,7 @@ ul li a i:hover {
     opacity: .7;
 }
 
-section article{
-	margin: 0 auto;
-	text-align: center;
-}
-
-section article::after {
+.greli-emotion::after {
   content: "";
   background: url("../assets/painter-1246619_1920.jpg");
   opacity: 0.5;
@@ -78,4 +74,39 @@ section article::after {
   right: 0;
   position: absolute;
   z-index: -1;   
+  background-repeat: no-repeat;
+  background-size:cover;
 }
+
+.greli-knowledge{
+	background: green;
+	width: 100%;
+	text-align: center;
+	left: 0;
+	bottom: 20px;
+	right: 0;
+	position: absolute;
+	z-index: -1;   
+}
+
+/* Small Devices */ 
+@media (max-width:480px) {
+	span.greli {
+		font-size: 70px;
+	}
+
+
+	strong.greli {
+		font-size: 110px;
+	}	
+
+	nav ul{
+		float: left;
+	}
+
+	section{
+		float: left;
+	}
+}
+
+
