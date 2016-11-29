@@ -108,13 +108,13 @@ ul li a i:hover {
 }
 
 /* Ipad */ 
-@media (max-width:1025px and max-height: 769px) {
+@media (width:1024px) and (height: 768px) {
 	.greli-emotion{
-		height: 600px;
+		height: 550px;
 	}	
 
 	.greli-emotion::after {
-	  	height: 600px;	
+	  	height: 550px;	
 	}
 }
 
