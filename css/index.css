@@ -2,15 +2,6 @@
 	font-family: 'Indie Flower', cursive;
 }
 
-span.greli {
-	font-size: 100px;
-	font-style: normal;
-}
-
-strong.greli {
-	font-size: 200px;
-	color: #fff;
-}
 
 body { 
 	background-color: #90EE90;
@@ -36,7 +27,6 @@ nav ul{
 	float: right;
 }
 ul li a i {
-    background: #205D7A;
     color: #fff;
     width: 30px;
     height: 25px;
@@ -78,15 +68,22 @@ ul li a i:hover {
   background-size:cover;
 }
 
+.greli-emotion{
+	font-size: 100px;
+	color: #000;	  
+}
+
 .greli-knowledge{
-	background: green;
+	background: #ffdb99;
 	width: 100%;
 	text-align: center;
 	left: 0;
-	bottom: 20px;
+	bottom: 10px;
 	right: 0;
 	position: absolute;
-	z-index: -1;   
+	z-index: -1; 
+	font-size: 50px;
+	color: #000;	
 }
 
 /* Small Devices */ 
@@ -107,6 +104,10 @@ ul li a i:hover {
 	section{
 		float: left;
 	}
+
+	.greli-knowledge{
+		font-size: 50px;
+	}	
 }
 
 
