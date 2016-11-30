@@ -2,40 +2,40 @@
 	font-family: 'Muli', sans-serif;
 }
 
-span.greli {
-	font-size: 50px;
-	font-style: normal;
+.orange{
+	color: orange;
+}
+.green{
+	color: green;
 }
 
-strong.greli {
-	font-size: 150px;
-	color: #000;
-	
+.white{
+	color: white;
 }
 
 body { 
 	background-color: white;
 }
 
-ul {
+span.greli {
+	font-size: 40px;
+	font-style: normal;
+}
+
+strong.greli {
+	font-size: 100px;
+	color: #000;
+}
+
+
+nav ul {
     overflow: auto;
 }
  
-ul li {
-    list-style-type: none;
+nav ul li {
+    list-style-type: circle;
     float: left;
-}
-
-.greli-advices div{
-	margin: 3px;
-}
-
-.greli-experience i
-{
- background-color: orange;
- border-radius: 50%;
- border: 1x solid grey;
- padding:10px;
+    overflow: hidden;
 }
 
 nav{
@@ -78,26 +78,84 @@ ul li a i:hover {
 }
 
 .greli-emotion, .greli-emotion::after{
-	height: 350px;
+	height: 250px;
 }
 
-.orange{
-	color: orange;
+.greli-advices div{
+	margin: 3px;
 }
-.green{
-	color: green;
+
+.greli-event {
+	content: "";
+	width: 60%;
+    border: 1px solid orange;
+    font-size: 20px;
+    display: block;
+    margin: 5px auto;
+    overflow: hidden;	
 }
+
+.greli-event div{
+	float: left;
+}
+
+
+.greli-event-title{
+	width: 100%;
+    text-align: center;
+    margin: 5px;
+}
+
+.greli-event-description-text{
+	width: 70%;
+    text-align: left;
+    margin: 5px;
+}
+
+.greli-event-description-logo{
+	text-align: right;
+	width: 20%;
+}
+
+.greli-event-description-logo img{
+	height: 100px;
+	width: 100px;
+}	
+
+.greli-experience i
+{
+ background-color: orange;
+ border-radius: 50%;
+ border: 1x solid grey;
+ padding:10px;
+}
+
+.greli-event-description-site{
+	width: 100%
+}
+.greli-event-description-site div{
+	width: 100%;
+	margin: 10px auto;
+}
+
 .greli-emotion::after {
   content: "";
-  background: url("../assets/painter-1246619_1920.jpg");
+  background: url("../img/painter-1246619_1920.jpg");
   opacity: 0.5;
   top: 0;
   left: 0;
-  bottom: 0;
   right: 0;
   position: absolute;
   z-index: -1;   
   background-size:cover;
+}
+
+
+.greli-description-text{
+	text-align: left !important;
+	width: 60%;
+	margin: 0 auto;
+	font-size: 16px;
 }
 
 .greli-experience{
@@ -107,6 +165,14 @@ ul li a i:hover {
 	margin: 10px auto;
     background: white;
     border: 10px;
+}
+.greli-description{
+	font-size:  30px;
+	text-align: center;
+	margin: 10px auto;
+    background: white;
+    border: 10px;
+    overflow: none;
 }
 
 .greli-knowledge{
@@ -118,6 +184,7 @@ ul li a i:hover {
 	width: 100%;
 	font-size: 50px;
 	float: left;	  
+
 }
 
 .greli-advices{
@@ -152,13 +219,70 @@ ul li a i:hover {
 		text-align: left;
 		width: 95%;
 		margin:0 auto;
-	}		
+	}	
+
+	.greli-event-description-logo img{
+		height: 150px;
+		width: 150px;
+	}	
+
+	.greli-event-description-text{
+		width: 90%;
+	    text-align: left;
+	    margin: 5px;
+	}
+
+	.greli-event-description-logo{
+		margin: 0 auto;
+		width: 100%;
+		text-align: center;
+	}
+
+	.greli-event {
+		content: "";
+		width: 90%;
+	    font-size: 22px;
+	}
+
+	.greli-description-text{
+		width: 90%;
+		font-size: 22px;
+	}
 }
 
 
 
 /* Small Devices */ 
 @media (max-width:700px) {
+
+	.greli-event-description-logo img{
+		height: 150px;
+		width: 150px;
+	}	
+
+	.greli-event-description-text{
+		width: 90%;
+	    text-align: left;
+	    margin: 5px;
+	}
+
+	.greli-event-description-logo{
+		margin: 0 auto;
+		width: 100%;
+		text-align: center;
+	}
+
+	.greli-event {
+		content: "";
+		width: 90%;
+	    font-size: 22px;
+	}
+
+	.greli-description-text{
+		width: 90%;
+		font-size: 22px;
+	}
+
 	span.greli {
 		font-size: 45px;
 	}
