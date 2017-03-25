@@ -29,13 +29,13 @@ var options = [{
     selector: '#contactanos',
     offset: 50,
     callback: function(el) {
-        Materialize.toast("Contactanos al whatsapp 3002386570", 3000);
+        Materialize.toast("Contactanos al whatsapp 3002386570", 5000);
     }
 }, {
     selector: '#salir-de-la-rutina',
     offset: 205,
     callback: function(el) {
-      Materialize.toast("Recuerda! Te obsequiaremos una bebida inicial", 3000);
+      Materialize.toast("Recuerda! Te obsequiaremos una bebida inicial", 5000);
         
     }
 }];
