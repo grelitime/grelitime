@@ -84,7 +84,11 @@ nav ul a,
 nav .brand-logo,
 .greli-texto {
     color: #ff440b;
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Chelsea Market', cursive;
+}
+
+.greli-background-color{
+        background-color: #ff440b;
 }
 
 .greli-texto2{
@@ -93,7 +97,7 @@ nav .brand-logo,
 }
 .greli-slogan-color {
     color: #00ff2f;
-    font-family: 'Neucha', cursive;
+    font-family: 'Chelsea Market', cursive;
 }
 
 .greli-slogan {
