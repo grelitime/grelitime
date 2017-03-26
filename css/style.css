@@ -26,6 +26,7 @@ p {
     .parallax-container .section {
         position: absolute;
         top: 30%;
+        
     }
     #index-banner .section {
         top: 10%;
